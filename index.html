@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AN EVENT TO REMEMBERt</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div class="container">
+      <header>
+        <div class="container header__container">
+          <div class="header__left">
+              <h1>REMEMBER AN EVENT THAT LASTS LONGER
+              </h1>
+              <a href="SERVICE.html" class="btn btn-primary">CLICK HERE</a>
+          </div>
+          <div class="header__right">
+  
+          </div>
+        </div>
+      </header>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="images/A.jpg"></div>
+              <div class="swiper-slide"><img src="images/F.jpg"></div>
+              <div class="swiper-slide"><img src="images/C.jpg"></div>
+              <div class="swiper-slide"><img src="images/E.jpg"></div>
+              <div class="swiper-slide"><img src="images/B.jpg"></div>
+              <div class="swiper-slide"><img src="images/D.jpg"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            
+          </div>
+
+    </div>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html"><h4>AN EVENT TO REMEMBER</h4></a>
+            <ul class ="nav__menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="service.html">SERVICE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="booking.html">BOOKING</a></li>
+                <li><a href="admin.html">ADMIN</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-list-ul"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-times"></i></button>
+        </div>
+    </nav>
+    <!--=================END OF NAVBAR============-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+         autoplay:{
+            delay: 2000,
+            disableOnInteraction: false,
+         },
+ 
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+
+});
+    </script>
+     
+     <section class="service">
+      <div class="container service__container">
+        <div class="services__left">
+          <h1>SERVICES</h1>
+          <p>
+            Here the list of services we offer for your event.
+          </p>
+          <a href="#" class="btn" >Click Here</a>
+        </div>
+        <div class="services__right">
+          <article class="services">
+            <span class="services__icon"><i class="uil uil-camera-change"></i></span>
+            <h5>PHOTOGRAPHY</h5>
+            <p>We take photos to make your moment remember forever.</p>
+          </article>
+
+          <article class="services">
+            <span class="services__icon"><i class="uil uil-video"></i></i></span>
+            <h5>VIDEOGRAPHY</h5>
+            <p>Videography don't just capture the moment, It captures the feelings.</p>
+          </article>
+
+          <article class="services">
+            <span class="services__icon"><i class="uil uil-restaurant"></i></i></span>
+            <h5>CATERING</h5>
+            <p>Good food brings family and friends together.</p>
+          </article>
+
+          <article class="services">
+            <span class="services__icon"><i class="uil uil-music"></i></i></i></span>
+            <h5>DJ</h5>
+            <p>Music unites the people which makes the event even more beautiful.</p>
+          </article>
+
+          <article class="services">
+            <span class="services__icon"><i class="uil uil-lightbulb"></i></i></i></span>
+            <h5>LIGHTING</h5>
+            <p>Good light provides the hope in the darkness and set the good vibe.</p>
+          </article>
+
+          <article class="services">
+            <span class="services__icon"><i class="uil uil-flower"></i></i></i></span>
+            <h5>DECORATION</h5>
+            <p>Decoration and flower designs adds more colors to your event.</p>
+          </article>
+
+          <article class="services">
+            <span class="services__icon"><i class="uil uil-pagelines"></i></i></i></span>
+            <h5>INVITATION DEIGN</h5>
+            <p>Invitations are the one through which the date of an event can be remembered.</p>
+          </article>
+
+          <article class="services">
+            <span class="services__icon"><i class="uil uil-map"></i></i></i></span>
+            <h5>VENUE SELECTION</h5>
+            <p>Good venue provide the beautiful opprotunity to gather the famil and friends.</p>
+          </article>
+        </div>
+      </div>
+     </section>
+    <!--==========END OF SERVICES===========-->
+
+
+  
+
+
+     
+
+
+
+
+</body>
+</html>
